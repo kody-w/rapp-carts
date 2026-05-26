@@ -24,8 +24,10 @@ to:
 
 - **`agent.py`** — the **loader cartridge**. A single, hotloadable file. Small. On its own it's a
   working agent; in the RACon pattern it pulls its `.egg` payload on first run.
-- **`.egg`** — the **payload cartridge**. A portable archive carrying *everything* the rapplication
-  needs to run locally (its agents, persona, data, manifest).
+- **`.egg`** — the **payload cartridge**, a.k.a. the **incubation file**. A portable archive carrying
+  *everything* the rapplication needs to run locally (its agents, persona, data, manifest). It
+  *incubates* locally and **hatches** into a twin. ("Incubation file" is the user‑facing name; `.egg`
+  is the builder‑facing one.)
 
 A cartridge may be just an `agent.py`, just an `.egg`, or an `agent.py` paired with an `.egg` it
 fetches (cloud by default, local optional). To the user these are all simply "cartridges" —
