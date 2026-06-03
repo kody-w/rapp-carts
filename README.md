@@ -29,6 +29,9 @@ what's hidden, and the insert→boot→run→eject contract.
 
 - The first cartridge: **[cowork-cookbook-rapp](https://github.com/kody-w/cowork-cookbook-rapp)**.
 - The experience / north‑star (incl. RACon Kited): **[racon](https://github.com/kody-w/racon)**.
+- Drive a running cartridge from any AI host: **[rapp-mcp](https://github.com/kody-w/rapp-mcp)** —
+  the MCP gateway (`rapp-mcp-spec/1.0`). A non‑RACon way to reach the same cartridge: MCP is
+  **transport** onto `/chat` (*Chat Is The Only Wire*), not another unit.
 - Under the hood: [RAPP Store SPEC §13](https://github.com/kody-w/RAPP_Store/blob/main/SPEC.md) ·
   [rapp-neighborhood-protocol](https://github.com/kody-w/rapp-neighborhood-protocol) ·
   [rapp-egg-hub](https://github.com/kody-w/rapp-egg-hub).
