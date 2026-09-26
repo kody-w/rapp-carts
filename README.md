@@ -1,5 +1,9 @@
 # 🎴 rapp-carts
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/rapp-carts.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/rapp-carts.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 **The cartridge spec.** The one thing a user ever has to understand about installing a RAPP
 rapplication:
 
